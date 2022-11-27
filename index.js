@@ -23,6 +23,7 @@ app.use(function (req, res) {
 })
 
 User.sync();
+// User.drop();
 console.log("The table for the User model was just (re)created!");
 
 
