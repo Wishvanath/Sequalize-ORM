@@ -1,1 +1,15 @@
-Hello
+27/11/2022
+------------------------------------------
+1.install Node.js
+2.install MySql work bench with below link
+https://dev.mysql.com/downloads/mysql/
+3 create new Node app
+cmd:
+---------
+npm init -y
+
+Package
+-----------
+npm i express
+npm i body-parser
+npm i nodemon
