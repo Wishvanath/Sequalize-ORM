@@ -15,3 +15,10 @@ npm i body-parser
 npm i nodemon
 npm install --save sequelize
 npm i mysql2
+
+
+
+LEC - 03
+----------
+Model Defination
+https://sequelize.org/docs/v6/core-concepts/model-basics/

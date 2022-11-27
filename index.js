@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-const connection = require('./model')
+const User = require('./models/user');
+
 
 var bodyParser = require('body-parser')
 
@@ -20,6 +21,13 @@ app.use(function (req, res) {
   res.write('you posted:\n')
   res.end(JSON.stringify(req.body, null, 2))
 })
+
+User.sync();
+console.log("The table for the User model was just (re)created!");
+
+
+
+
 
 app.listen(3000, ()=> {
     console.log("Your App is runnig on Port: 3000")
