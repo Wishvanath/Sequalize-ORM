@@ -13,3 +13,5 @@ Package
 npm i express
 npm i body-parser
 npm i nodemon
+npm install --save sequelize
+npm i mysql2
