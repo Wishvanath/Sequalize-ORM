@@ -22,7 +22,7 @@
 // module.exports = User;
 
 
-const { Sequelize, DataTypes, Model } = require('sequelize');
+const { DataTypes, Model } = require('sequelize');
 const sequelize = require('./index')
 
 class User extends Model {}

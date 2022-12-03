@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const User = require('./models/user');
+const Contact = require('./models/contact');
 
 
 var bodyParser = require('body-parser')
@@ -24,7 +25,11 @@ app.use(function (req, res) {
 
 User.sync();
 // User.drop();
-console.log("The table for the User model was just (re)created!");
+
+// for contact model
+Contact.sync(); 
+
+console.log("The table for the User model and contact model was just (re)created!");
 
 
 
